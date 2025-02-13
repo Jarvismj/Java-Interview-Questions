@@ -1,0 +1,12 @@
+When the methods have the same name and the signature is also same in both the super and sub classes methods then only it is considered as method overriding.
+ If methods have the same name but the arguments are not same then these are considered as overloaded methods and that becomes method overloading.
+Return type of the overridden method in the sub class should be same or the sub type of the return type of the super class method. That is known as the covariant return type in Java.
+
+The visibility of the overridden method can’t be reduced. For example if a method is public in super class the overridden method in the child class can’t be protected or default as that would mean reducing the visibility. On the other hand if method is protected in super class then it can be public in the overridden method.
+
+If method in the super class throws an exception then the subclass overridden method can declare the same exception as declared in the superclass method or subclass can declare the subtype exception of the exception declared in the superclass method.
+
+If method in Superclass throws checked exception and subclass throws parent exception - Not Valid Scenario
+If method in Superclass throws unchecked exception and subclass throws parent exception -Valid Scenario
+
+A method declared final in the super class can’t be overridden in the subclass.
