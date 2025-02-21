@@ -1,0 +1,14 @@
+Suppose ,
+Decimal Number = 1.6666666 (where 6 is infinte times)
+x = 1
+y=.6666666
+
+z = x+y = 1.666666
+
+y=.6666
+10y = 6.6666
+10y - y = 6.6666-.6666
+9y = 6
+y=6/9
+y=2/3
+z = x + y = 1+ 2/3 = 5/3
